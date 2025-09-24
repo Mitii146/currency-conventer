@@ -33,7 +33,7 @@ Supports conversion between USD, EUR, GBP, and PLN.
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/currency-converter.git
+   git clone https://github.com/Mitii146/currency-converter.git
    ```
 2. Open index.html in your browser.
 3. Enter an amount, select currencies, and click Swap or toggle Dark Mode.
