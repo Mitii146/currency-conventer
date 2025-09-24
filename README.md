@@ -26,6 +26,9 @@ Supports conversion between USD, EUR, GBP, and PLN.
 
 ---
 
+## Live Demo
+👉 [Currency Converter on GitHub Pages](https://mitii146.github.io/currency-conventer/)
+
 ## How to Use
 
 1. Clone the repository:
