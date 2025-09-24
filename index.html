@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Currency Converter</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div id="container">
+      <h1 id="header">🏦 Currency Converter 🪙</h1>
+      <button id="dark-mode">
+        <img src="img/dark-mode.svg" alt="dark-mode" />
+      </button>
+
+      <span id="result"></span>
+
+      <br />
+      <label for="input-amount">Amount: </label>
+      <input type="text" id="input-amount" />
+      <button id="clear-input">❌</button>
+      <br />
+
+      <label for="from">From: </label>
+      <select name="from" id="from">
+        <option value="usd">USD</option>
+        <option value="eur">EUR</option>
+        <option value="gbp">GBP</option>
+        <option value="pln">PLN</option>
+      </select>
+      <br />
+      <label for="to">To: </label>
+      <select name="to" id="to">
+        <option value="usd">USD</option>
+        <option value="eur">EUR</option>
+        <option value="gbp">GBP</option>
+        <option value="pln">PLN</option>
+      </select>
+      <br />
+
+      <button id="swap">
+        <img src="img/arrow-left-right-line.svg" alt="exchange" />
+      </button>
+
+      <br />
+      <br />
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
