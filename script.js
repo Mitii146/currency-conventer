@@ -71,6 +71,16 @@ amount.addEventListener("input", () => {
   }, 500);
 });
 
+from.addEventListener("change", () => {
+  result.textContent = "";
+  setTimeout(calculateCurrency, 300);
+});
+
+to.addEventListener("change", () => {
+  result.textContent = "";
+  setTimeout(calculateCurrency, 300);
+});
+
 // Swaping currencies after clicking a button
 swap.addEventListener("click", async () => {
   result.textContent = "";
